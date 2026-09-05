@@ -1,0 +1,6 @@
+{
+  "name": "Tulip International — Indian Antiques & Heritage Collectibles",
+  "description": "Premier antique & heritage collectibles franchise founded in 1987 by Franchisko Gamini Paluwe. Featuring online private viewing bookings, rare royal artifact gallery, CoA provenance verification, and Munich & Jaipur showroom location integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

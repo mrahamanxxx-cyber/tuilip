@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+  }
+  
+  h1, h2, h3, .font-display {
+    font-family: var(--font-cinzel);
+    letter-spacing: 0.03em;
+  }
+
+  .font-serif-sub {
+    font-family: var(--font-cormorant);
+  }
+}
+
+/* Custom royal antique pattern & gold foil styling */
+.bg-maroon-pattern {
+  background-color: #4A0E17;
+  background-image: radial-gradient(#C5A059 0.75px, transparent 0.75px), radial-gradient(#C5A059 0.75px, #4A0E17 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.05;
+}
+
+.gold-shimmer {
+  background: linear-gradient(135deg, #D4AF37 0%, #FFF3B0 50%, #AA771C 100%);
+}
+
+.gold-border {
+  border-image: linear-gradient(to bottom right, #D4AF37, #E5C07B, #AA771C) 1;
+}
+
+.parchment-texture {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(rgba(197, 160, 89, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
