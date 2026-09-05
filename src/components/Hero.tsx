@@ -137,7 +137,7 @@ export const Hero: React.FC<HeroProps> = ({
 
               <div className="relative h-80 sm:h-96 rounded-lg overflow-hidden group">
                 <img
-                  src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=900&q=80"
+                  src="/image-bainocooler-1800.jpeg"
                   alt="Royal Indian Temple Lamp Antique"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
